@@ -1,0 +1,2 @@
+useDynLib(typr, .registration = TRUE, .fixes = "C_")
+exportPattern("^[[:alpha:]]+")

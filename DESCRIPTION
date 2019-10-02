@@ -1,0 +1,6 @@
+Package: typr
+Type: Package
+Title: Traces execution of R functions to glean type information for function arguments and returns.
+Version: 1.0
+Date: 2019-09-17
+RoxygenNote: 6.1.1
