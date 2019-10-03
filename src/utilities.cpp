@@ -238,6 +238,7 @@ std::string get_type_of_sexp(SEXP thing) {
             break;
         case FUNSXP:
             // ?? will this happen
+            // apparently we dont need this
             return "function";
     }
 

@@ -104,7 +104,8 @@ class TracerState {
                 , truncate_(truncate)
                 , binary_(binary)
                 , compression_level_(compression_level)
-                , timestamp_(0) {}
+                , timestamp_(0)
+                , event_counter_(to_underlying(Event::COUNT)) {}
 
      Function* lookup_function(const SEXP op) {
          Function* function = nullptr;
